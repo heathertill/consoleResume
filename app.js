@@ -1,8 +1,5 @@
 
 
-
-
-
 let name = 'Heather Till'
 
 let career = 'Soon to be Junior Developer. Past elementary teacher. Full time student - there is too much in this world to ever be done learning.';
@@ -13,8 +10,8 @@ let interests = '\n* Knitting\n* Sewing\n* Photo editing\n* Graphic design\n* Tr
 
 
 let companyName = [
-    'Clear Lake YMCA, Clear Lake City, TX', 
-    'Garfield Elementary, Houston,TX', 
+    'Clear Lake YMCA, Clear Lake City, TX',
+    'Garfield Elementary, Houston,TX',
     'Birmingham Early Learning Center, Birmingham, AL'
 ];
 
@@ -23,18 +20,12 @@ let jobTitle = [
 ];
 
 let description = [
-    'I lifeguarded and taught swim lessons at a number of area pools for 3 years.', 
-    'I was the Gifted and Talented teacher for the 3rd grade for 2 years.', 
+    'I lifeguarded and taught swim lessons at a number of area pools for 3 years.',
+    'I was the Gifted and Talented teacher for the 3rd grade for 2 years.',
     'I taught the 3K class at the center for 1 year.'
-]
-
-
+];
 
 let skills = "\n\* Painting\n* Baking and cooking\n* Appliance repair\n* Furniture making and reupholstery\n* Irrigation\n* General problem solving\n* Costume and stage design\n* Programming\n\n"
-
-
-
-
 
 let stuff = [
     {
@@ -62,14 +53,7 @@ let stuff = [
         skill: 'Programming',
         cool: 1
     }
-]
-
-
-
-
-
-
-
+];
 
 
 console.log('Name: ', name.toUpperCase());
@@ -96,7 +80,7 @@ console.log('\n\nMy Skills:\n');
 
 for (let eachSkill of stuff) {
     displaySkill(eachSkill.skill, eachSkill.cool)
-}
+};
 
 function displaySkill(skill, cool) {
     if (cool === 1) {
